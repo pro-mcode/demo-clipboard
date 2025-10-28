@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("/assets/images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (max-width: 576px) {
+  body {
+    background-image: url("/assets/images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
+}
+@layer base {
+  h3 {
+    @apply text-tertiary text-xl font-sans font-bold mt-6 mb-3 max-w-[70%] mx-auto md:text-3xl;
+  }
+}
+.section-tagline {
+  @apply text-tertiary text-[14px] font-normal mx-auto text-center mb-6 max-w-[70%] md:max-w-[50%] md:text-lg;
+}
+
+.button-item {
+  @apply px-8 py-4 rounded-full text-white text-base w-full md:w-fit shadow-sm hover:bg-opacity-80 hover:shadow-lg hover:translate-y-0.5 transition-all duration-200;
+}
+.button-container {
+  @apply flex flex-col space-y-4 justify-center items-center my-4 max-w-[70%] mx-auto md:flex-row md:space-y-0 md:space-x-4;
+}

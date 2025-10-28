@@ -85,16 +85,16 @@ demo-clipboard/
    ```
 2. **Install Tailwind (if editing styles)**
 
-````npm install -D tailwindcss
-   npx tailwindcss init```
+npm install -D tailwindcss
+npx tailwindcss init
 
 3. **Run Tailwind build**
 
-   ```npx tailwindcss -i ./css/input.css -o ./css/output.css --watch
+npx tailwindcss -i ./css/input.css -o ./css/output.css --watch
 
 4. **Launch the page**
 
-   ```open index.html
+open index.html
 
 ## 📱 Responsive Design
 
@@ -127,4 +127,3 @@ Frontend Engineer & Blockchain Enthusiast
     This project is released under the MIT License
     .
     You’re free to use, modify, and distribute with attribution.
-````

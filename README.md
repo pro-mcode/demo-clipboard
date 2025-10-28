@@ -14,11 +14,11 @@
 
 ---
 
-## 🌐 Live Demo → https://pro-mcode.github.io/demo-clipboard/
+## 🌐 Live Demo
 
 ## 👉 Live Site **[demo-clipboard.netlify.app](https://demo-clipboard.netlify.app)**
 
-## 💻 GitHub Repo: [https://github.com/pro-mcode/demo-clipboard] (https://github.com/pro-mcode/demo-mortgage-calculator)
+## 💻 GitHub Repo: [https://github.com/pro-mcode/demo-clipboard] (https://github.com/pro-mcode/demo-clipboard)
 
 ---
 
@@ -80,21 +80,21 @@ demo-clipboard/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/demo-clipboard.git
+   git clone https://github.com//pro-mcode/demo-clipboard.git
    cd demo-clipboard
    ```
 2. **Install Tailwind (if editing styles)**
 
-   npm install -D tailwindcss
-   npx tailwindcss init
+````npm install -D tailwindcss
+   npx tailwindcss init```
 
 3. **Run Tailwind build**
 
-   npx tailwindcss -i ./css/input.css -o ./css/output.css --watch
+   ```npx tailwindcss -i ./css/input.css -o ./css/output.css --watch
 
 4. **Launch the page**
 
-   open index.html
+   ```open index.html
 
 ## 📱 Responsive Design
 
@@ -127,3 +127,4 @@ Frontend Engineer & Blockchain Enthusiast
     This project is released under the MIT License
     .
     You’re free to use, modify, and distribute with attribution.
+````
